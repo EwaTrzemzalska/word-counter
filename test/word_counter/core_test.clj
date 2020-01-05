@@ -11,10 +11,3 @@
   (is (= 0 (core/count-words 1)))
   (is (= 0 (core/count-words nil)))
   )
-
-
-
-
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 1 1))))
