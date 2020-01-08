@@ -11,10 +11,7 @@
         count)
     0))
 
+
 (defn -main
-  [args]
-  ;;TODO if user didn't provide string while running, throw info to provide
-  (println (str "Your words count is " (count-words args))))
-
-
-
+  ([] (println "Run your app again with your sentence"))
+  ([input] (println (str "Your words count is " (count-words input)))))
