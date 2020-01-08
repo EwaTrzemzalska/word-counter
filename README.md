@@ -6,6 +6,8 @@ This app will count words in provided sentence.
 
 To run executable use: ./word-counter "Your string"
 
+You can add an alias in your bash settings (i.e. "~/bash.rc") "provide-your-path/word-counter"
+
 ## Development
 
 To run this project use: lein run
