@@ -4,15 +4,17 @@ This app will count words in provided sentence.
 
 ## Usage
 
-To run executable use: ./word-counter "Your string"
+To run executable use: `./word-counter "Your string"`
 
-You can add an alias in your bash settings (i.e. "~/bash.rc") "provide-your-path/word-counter"
+You can add an alias in your bash settings (i.e. "~/bash.rc"): `"provide-your-path/word-counter"`
 
 ## Development
 
-To run this project use: lein run
-To run tests use: lein test
-To pack app as executable use: lein bin
+To run this project use: `lein run`
+
+To run tests use: `lein test`
+
+To pack app as executable use: `lein bin`
 
 ## License
 
