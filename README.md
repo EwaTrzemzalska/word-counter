@@ -1,35 +1,20 @@
 # word-counter
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+This app will count words in provided sentence.
 
 ## Usage
 
+To run executable use: ./word-counter "Your string"
+
+## Development
+
 To run this project use: lein run
 To run tests use: lein test
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+To pack app as executable use: lein bin
 
 ## License
 
-Copyright © 2020 FIXME
+Copyright © 2020 EwaTrzemzalska
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
