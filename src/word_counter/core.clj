@@ -3,12 +3,15 @@
   (:gen-class))
 
 (defn count-words [sentence]
-
-  (-> sentence
-      (str/split #" ")
-      (->> (filter (fn [word]
-                     (not (str/blank? word)))))
-      count))
+  (if (string? sentence)
+    (-> sentence
+        (str/split #" ")
+        (->> (filter (fn [word]
+                       (not (str/blank? word)))))
+        count)
+    0
+    )
+  )
 
 
 (defn -main
