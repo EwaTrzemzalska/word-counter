@@ -13,7 +13,8 @@
 
 (defn -main
   "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, it's my word counting app!"))
+  [args]
+  
+  (println (str "Your words count is " (count-words args))))
 
 
