@@ -12,9 +12,9 @@
     0))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [args]
-  
+  ;;TODO if user didn't provide string while running, throw info to provide
   (println (str "Your words count is " (count-words args))))
+
 
 
