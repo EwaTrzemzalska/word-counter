@@ -9,10 +9,7 @@
         (->> (filter (fn [word]
                        (not (str/blank? word)))))
         count)
-    0
-    )
-  )
-
+    0))
 
 (defn -main
   "I don't do a whole lot ... yet."
