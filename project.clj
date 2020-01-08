@@ -7,4 +7,7 @@
   :main ^:skip-aot word-counter.core
   :target-path "target/%s"
   :plugins [[lein-cljfmt "0.6.6"]]
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}
+             :dev {:plugins [[lein-binplus "0.6.5"]]}}
+  :bin {:name "word-counter"})
+
